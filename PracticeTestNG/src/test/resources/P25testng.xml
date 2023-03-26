@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="P25_Listener.P25_03_ITestListenerClass" />
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="P25_Listener.P25_04_TestClass">
+				<methods>
+					<include name="testMethod1" />
+				</methods>
+			</class>
+		</classes>
+</test>
+		<test name="Test2">
+			<classes>
+				<class name="P25_Listener.P25_04_TestClass">
+					<methods>
+						<include name="testMethod3" />
+						<include name="testMethod4" />
+
+					</methods>
+				</class>
+			</classes>
+
+		</test>
+	 <!-- Test -->
+</suite> <!-- Suite -->

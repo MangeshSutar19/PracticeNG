@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> <!-- if this dtd is present then this will help to show auto suggestion -->
+<suite name="DemoSuite">  <!-- We can give any name here -->
+	<test name="TestGoogle" enabled = "true">  <!-- We can give any relevant name here -->
+		<classes>
+			<class name="com.testng.practice.P10_EnableOrdisbaledTheTest">
+				<methods>
+					<include name="TestGoogle" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TestFacebook" enabled = "false">  <!-- We can give any relevant name here -->
+		<classes>
+			<class name="com.testng.practice.P3_FirstTestNGclass">
+				<methods>
+					<include name="TestFacebook" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

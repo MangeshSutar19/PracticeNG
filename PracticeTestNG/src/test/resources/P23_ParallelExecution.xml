@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test name="Class 1">
+		<classes>
+			<class name="P23_parallelExectionOfTest.P23_01_TestClass" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Class 2">
+		<classes>
+			<class name="P23_parallelExectionOfTest.P23_02_TestClass" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Class 3">
+		<classes>
+			<class name="P23_parallelExectionOfTest.P23_03_TestClass" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

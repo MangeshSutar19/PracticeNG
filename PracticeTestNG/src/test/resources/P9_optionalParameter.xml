@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> <!-- if this dtd is present then this will help to show auto suggestion -->
+<suite name="P9_optionalParameter">
+	
+<!-- 	<parameter name="ulrinput" value="https://demo.guru99.com/test/newtours/index.php" />
+	<parameter name="username" value="mangeshsutar19" />
+	<parameter name="password" value="mangeshsutar19" />-->
+
+ 
+	<test name="P9_optionalParameter">
+			<classes>
+			<class name="com.testng.practice.P9_optionalParameter">
+				<methods>
+					<include name="launchApp" />
+					<include name="logindetails" />
+					<include name="UserLoggedIN" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

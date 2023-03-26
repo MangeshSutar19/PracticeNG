@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> <!-- if this dtd is present then this will help to show auto suggestion -->
+<suite name="Execution flow of TestNG annotations">
+	<test name="Anotatins flow">
+		<classes>
+			<class
+				name="com.testng.practice.P7_AnnotationsAndTheFlowOfExecution_02">
+				<methods>
+					<include name="launchApp" />
+					<include name="VerifyTitle" />
+					<include name="VerifyCurrentURL" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

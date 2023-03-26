@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> <!-- if this dtd is present then this will help to show auto suggestion -->
+<suite name="DemoSuite">
+	<test name="Setpriority">
+		<classes>
+			<class name="com.testng.practice.P11_setPriority">
+				<methods>
+					<include name="SignUp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

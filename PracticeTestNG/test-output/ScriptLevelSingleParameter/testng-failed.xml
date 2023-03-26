@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ScriptLevelSingleParameter]" guice-stage="DEVELOPMENT">
+  <parameter name="ulrinput" value="https://demo.guru99.com/test/newtours/index.php"/>
+  <parameter name="password" value="mangeshsutar19"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="username" value="mangeshsutar19"/>
+  <test thread-count="5" name="ScriptLevelSingleParameter(failed)">
+    <classes>
+      <class name="com.testng.practice.P8_ScriptLevelSingleParameter">
+        <methods>
+          <include name="TearDown"/>
+          <include name="OpenBroswer"/>
+          <include name="UserLoggedIN"/>
+        </methods>
+      </class> <!-- com.testng.practice.P8_ScriptLevelSingleParameter -->
+    </classes>
+  </test> <!-- ScriptLevelSingleParameter(failed) -->
+</suite> <!-- Failed suite [ScriptLevelSingleParameter] -->

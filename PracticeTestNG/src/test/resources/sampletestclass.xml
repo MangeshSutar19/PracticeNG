@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+	
+	<parameter name = "url" value = "https://demo.guru99.com/test/newtours/login.php"/>
+	<parameter name = "username" value = "abc"/>
+	<parameter name = "password" value = "abc@123"/>
+		<parameter name="browsername" value="firefox" />
+	
+	<test name="Test"  enabled = "false">
+	
+			<classes>
+				<class name="com.testng.practice.sampletestclass">
+					<methods>
+						<include name="launchapp" />
+						<exclude name="loginIntoApp" />
+						<include name="logout" />
+					</methods>
+				</class>
+			</classes>
+	</test> <!-- Test -->
+	<test name="Test2" >
+	
+			<classes>
+				<class name="com.testng.practice.sampletestclass">
+					<methods>
+						<include name="launchapp" />
+						<include name="loginIntoApp" />
+						<include name="logout" />
+					</methods>
+				</class>
+			</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

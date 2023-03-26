@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="P26_Screenshots.P26_03_ITestListenerClass" />
+	</listeners>
+
+	<test name="TestGoogle">
+		<classes>
+			<class name="P26_Screenshots.P26_02_TestMethodsClass">
+				<methods>
+					<include name = "TestGoogle">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TestFacebook">
+		<classes>
+			<class name="P26_Screenshots.P26_02_TestMethodsClass">
+				<methods>
+					<include name = "TestFacebook">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->

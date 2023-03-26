@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> <!-- if this dtd is present then this will help to show auto suggestion -->
+<suite name="P15_DependencyOnGroup2">
+	<test name="P15_DependencyOnGroup2">
+	<groups>
+	<dependencies>
+	<group name ="sanity1" depends-on ="smoke1" /> 
+		<group name ="regression1" depends-on ="sanity1" /> 
+	</dependencies>
+	</groups>
+		<classes>
+			<class
+				name="com.testng.practice.P15_DependencyOnGroup2">
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

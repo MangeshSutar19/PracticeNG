@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [P9_optionalParameter]" guice-stage="DEVELOPMENT">
+  <parameter name="ulrinput" value="https://demo.guru99.com/test/newtours/index.php"/>
+  <parameter name="password" value="mangeshsutar19"/>
+  <parameter name="username" value="mangeshsutar19"/>
+  <test thread-count="5" name="P9_optionalParameter(failed)">
+    <classes>
+      <class name="com.testng.practice.P8_SuiteLevelSingleParameter">
+        <methods>
+          <include name="UserLoggedIN"/>
+          <include name="TearDown"/>
+          <include name="launchApp"/>
+          <include name="OpenBroswer"/>
+          <include name="logindetails"/>
+        </methods>
+      </class> <!-- com.testng.practice.P8_SuiteLevelSingleParameter -->
+    </classes>
+  </test> <!-- P9_optionalParameter(failed) -->
+</suite> <!-- Failed suite [P9_optionalParameter] -->

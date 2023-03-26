@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [P15_DependencyOnGroup2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="P15_DependencyOnGroup2(failed)">
+    <classes>
+      <class name="com.testng.practice.P15_DependencyOnGroup2">
+        <methods>
+          <include name="test5"/>
+          <include name="test8"/>
+          <include name="test3"/>
+          <include name="test6"/>
+          <include name="test7"/>
+        </methods>
+      </class> <!-- com.testng.practice.P15_DependencyOnGroup2 -->
+    </classes>
+  </test> <!-- P15_DependencyOnGroup2(failed) -->
+</suite> <!-- Failed suite [P15_DependencyOnGroup2] -->
